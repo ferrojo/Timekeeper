@@ -1,0 +1,72 @@
+html{
+    font-size: 10px;
+}
+
+body{
+    font-family: 'Trebuchet MS', 'Arial', 'Lucida Grande', 'Lucida Sans', sans-serif;
+    background-color: aliceblue;
+    font-size: 1.6rem;
+}
+
+.layout{
+    width: 100%;
+    min-height: 100%;
+    position: absolute;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.layout__main{
+    width: 40rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.layout__container-crono{
+    margin-bottom: 1rem;
+    border: 1px solid black;
+    padding: 0.5rem 1.5rem;
+    border-radius: 1rem;
+}
+
+.layout__crono{
+    font-size: 7rem;
+    font-weight: bold;
+}
+
+.layout__btns{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.layout__btn-start,
+.layout__btn-stop{
+    width: 100%;
+    border: none;
+    background-color: #EC3C3D;
+    color: white;
+    font-weight: 600;
+    padding: 0.7rem 0rem;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    transition: all 300ms ease-in-out;
+}
+
+.layout__btn-stop{
+    background-color: #CCCCCC;
+    color: white;
+}
+
+.layout__btn-start:hover{
+    background-color: rgb(34, 130, 34);
+}
+
+.layout__btn-stop:hover{
+    background-color: black;
+}
+
